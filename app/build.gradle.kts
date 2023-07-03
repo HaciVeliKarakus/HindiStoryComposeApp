@@ -41,7 +41,7 @@ android {
     }
     packaging {
         resources {
-            excludes += "/META-INF/{AL2.0,LGPL2.1}"
+            excludes += "/META-INF/*"
         }
     }
 }
@@ -56,6 +56,26 @@ dependencies {
     implementation("androidx.compose.ui:ui-graphics")
     implementation("androidx.compose.ui:ui-tooling-preview")
     implementation("androidx.compose.material3:material3")
+
+    // https://voyager.adriel.cafe/setup
+    implementation("cafe.adriel.voyager:voyager-navigator:1.0.0-rc06")
+    implementation("cafe.adriel.voyager:voyager-androidx:1.0.0-rc06")
+    implementation("cafe.adriel.voyager:voyager-bottom-sheet-navigator:1.0.0-rc06")
+    implementation("cafe.adriel.voyager:voyager-tab-navigator:1.0.0-rc06")
+    implementation("cafe.adriel.voyager:voyager-transitions:1.0.0-rc06")
+
+    // https://insert-koin.io/docs/quickstart/android-compose
+    implementation("io.insert-koin:koin-androidx-compose:3.4.5")
+
+    // https://docs.skrape.it/docs/overview/setup
+    implementation("it.skrape:skrapeit:1.1.5")
+
+    // https://coil-kt.github.io/coil/compose/
+    implementation("io.coil-kt:coil-compose:2.4.0")
+
+    // http://airbnb.io/lottie/#/android-compose
+    implementation("com.airbnb.android:lottie-compose:6.0.1")
+
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
