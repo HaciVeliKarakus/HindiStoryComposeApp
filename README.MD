@@ -1,4 +1,7 @@
 # Hindi Story Compose App
 
-# UI (inspired)
-https://dribbble.com/shots/7976818-Litereasy-Digital-Library-App/attachments/523894?mode=media
+https://shortstoriesinhindi.com/
+
+![](screenshots/Screenshot_20230703_055422.webp)
+
+![](screenshots/Screenshot_20230703_055557.webp)
